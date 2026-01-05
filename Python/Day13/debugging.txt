@@ -1,0 +1,9 @@
+# Using print() statements to debug
+
+# Using debugger with breakpoints and stepping through the code
+
+# try, except ErrorType can be used to present alternatives for the 
+# program execution without crashing
+
+# Testing the program with edge cases to make it error-free 
+# (both semantically and syntactically)

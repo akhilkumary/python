@@ -29,15 +29,15 @@ print(gameArt)
 print("Welcome to Treasure Island.\n Your mission is to find the treasure.")
 
 move = input('You\'re at a cross road. Where do you want to go?\n\tType "left" or "right"\n')
-if move == "left":
+if move == "left" or move == "Left":
     move = input('You\'ve come to a lake. There is an island in the middle of the lake.\n\tType "wait" to wait for a boat. Type "swim" to swim across.\n')
-    if move == "wait":
+    if move == "wait" or move == "Wait":
         move = input('You arrive at the island unharmed. There is a house with 3 doors.\n\tOne red, one yellow and one blue. Which color do you choose?\n')
-        if move == "red":
+        if move == "red" or move == "Red":
             print("Burned by fire.\nGame Over.") 
-        elif move == "yellow":
+        elif move == "yellow" or move == "Yellow":
             print("You Win!")
-        elif move == "blue":
+        elif move == "blue" or move == "Blue":
             print("Eaten by beasts.\nGame Over.")
         else:
             print("Game Over.")
